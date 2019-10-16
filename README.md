@@ -37,21 +37,9 @@ HOW TO USE
   Note that the time out is the total time (in seconds) allowed to any client connects to it.
 * Run SOGBOFA
   Type the following command
-  ./run_sogbofa instance-name portnumber
+  ./run_SNAP instance-name portnumber
   example:
-  ./run_sogbofa traffic_inst_mdp__10 2323
-* Results
-  After finishing the requested number of runs, 6 files will be recorded in the bin/ folder, with the following names
-  L_C_SOGBOFA_timeout_instance-name_Score
-  L_C_SOGBOFA_timeout_instance-name_depthCounter
-  L_C_SOGBOFA_timeout_instance-name_sizeCounter
-  L_C_SOGBOFA_timeout_instance-name_rrCounter
-  L_C_SOGBOFA_timeout_instance-name_seenCounter
-  L_C_SOGBOFA_timeout_instance-name_updatesCounter
-  which record respectively the average score of the runs, the average depth of the search, the average size of the computation graph, 
-  the average number of radnom restarts, the average number of action evaluated, the average number of gradient updates.
-  The Score file has three numbers, respectively the instance index, the average cumulative reward, and the standard deviation. The other
-  files each has only one number inside.
+  ./run_SNAP traffic_inst_mdp__10 2323
 
 -------------------------------------------------------------------------
 RDDL FILES READY TO USE
