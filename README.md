@@ -28,14 +28,14 @@ HOW TO USE
 
 * Prerequisites: Java SE 1.8 or higher
 * Compile
-  In the SOGBOFA/ directory, type command ./compile
+  In the root directory, type command ./compile
 * Run the server
   One can either run a server from the RDDLSim Project, or run the Server class compiled from our source code with the following command
   ./run_server rddlfilename-or-dir portnumber num-rounds random-seed timeout 
   For example: 
   ./run_server Domains 2323 100 1 10000
   Note that the time out is the total time (in seconds) allowed to any client connects to it.
-* Run SOGBOFA
+* Run SNAP
   Type the following command
   ./run_SNAP instance-name portnumber
   example:
