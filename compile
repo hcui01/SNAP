@@ -19,15 +19,3 @@ done
 rm -rf $BINDIR
 mkdir $BINDIR
 javac -classpath $CP -d $BINDIR src/*/*.java src/*/*/*.java
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
