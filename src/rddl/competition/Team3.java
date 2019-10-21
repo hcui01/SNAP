@@ -36,9 +36,6 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
-import com.sun.org.apache.bcel.internal.generic.IfInstruction;
-
 import rddl.EvalException;
 import rddl.RDDL;
 import rddl.RDDL.DOMAIN;
