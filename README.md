@@ -39,7 +39,7 @@ HOW TO USE
   Type the following command
   ./run_SNAP instance-name portnumber
   example:
-  ./run_SNAP traffic_inst_mdp__10 2323
+  ./run_SNAP traffic_inst_pomdp__1 2323
 
 -------------------------------------------------------------------------
 RDDL FILES READY TO USE
