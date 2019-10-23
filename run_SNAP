@@ -15,4 +15,4 @@ for i in ${libDir}/*.jar ; do
     CP="${CP}${SEP}$i"
 done
 
-java -Xms100M -Xmx500M -classpath $CP rddl.competition.Team3 $1 $2 Y_F
+java -Xms100M -Xmx500M -classpath $CP rddl.competition.Team3 $1 $2 Y_F_Sample
