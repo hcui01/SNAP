@@ -39,7 +39,6 @@ import org.xml.sax.SAXException;
 import rddl.EvalException;
 import rddl.RDDL;
 import rddl.RDDL.DOMAIN;
-import rddl.RDDL.IF_EXPR;
 import rddl.RDDL.INSTANCE;
 import rddl.RDDL.LCONST;
 import rddl.RDDL.NONFLUENTS;
