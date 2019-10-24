@@ -37,9 +37,10 @@ HOW TO USE
   Note that the time out is the total time (in seconds) allowed to any client connects to it.
 * Run SNAP
   Type the following command
-  ./run_SNAP instance-name portnumber
+  ./run_SNAP instance-name portnumber Algorithm
+  where the algorithm can be either Y_F for SNAP with all observations enumarated, Y_F_Sample for SNAP with sampling network, and RandomConcurrentPolicy for random.
   example:
-  ./run_SNAP traffic_inst_pomdp__1 2323
+  ./run_SNAP traffic_inst_pomdp__1 2323 Y_F_Sample
 
 -------------------------------------------------------------------------
 RDDL FILES READY TO USE
