@@ -10,5 +10,5 @@ instances=1+np.arange(12)
 
 for domain in domains:
     for inst in instances:
-        os.system("./run_SNAP "+domain+"_inst_pomdp__"+str(inst)+" 2323")
+        os.system("./run_SNAP "+domain+"_inst_pomdp__"+str(inst)+" 2323 Y_F_Sample")
         
