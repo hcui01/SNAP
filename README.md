@@ -1,7 +1,9 @@
 -------------------------------------------------------------------------
 OVERVIEW
 
-SNAP is a state-of-the-art stochastic online planning algorithm for POMDPs. It uses the idea of "Aggregate Simulation" to build a computation graph which symbolically approximates the Q value of actions given the current state, and searches the action space very efficiently using gradient updates. It supports various action constraints defined in first-order predicates. It directly works with POMDP domains defined in RDDL, and is implemented based on the original code of the RDDL simulator (https://github.com/ssanner/rddlsim). This source code corresponds to the NeurIPS paper Sampling Networks and Aggregate Simulation for Online POMDP Planning, PDF coming soon.
+SNAP is a state-of-the-art stochastic online planning algorithm for POMDPs, corresponding to the paper
+H. Cui and R. Khardon, Sampling Networks and Aggregate Simulation for Online POMDP Planning, Proceedings of the Conference on Neural Information Processing Systems (NeurIPS), 2019.
+SNAP uses the idea of "Aggregate Simulation" to build a computation graph which symbolically approximates the Q value of actions given the current state, and searches the action space very efficiently using gradient updates. It supports various action constraints defined in first-order predicates. It directly works with POMDP domains defined in RDDL, and is implemented based on the original code of the RDDL simulator (https://github.com/ssanner/rddlsim). This source code corresponds to the NeurIPS paper Sampling Networks and Aggregate Simulation for Online POMDP Planning, PDF coming soon.
    
 Please cite our paper if you are using the planner as a baseline, and/or star the project if you like it ^_^
 
