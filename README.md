@@ -48,6 +48,27 @@ RDDL FILES READY TO USE
 Please find all domain and instance files used in the paper in the Domains/ folder.
 
 -------------------------------------------------------------------------
+BASE LINES
+
+To reproduce results in NeurIPS 2019 paper with other systems please
+download and run as follows.
+
+DESPOT: The source code is at
+    https://github.com/AdaCompNUS/despot/
+Compile the code per instructions and run with default parameters.
+
+POMCP: The source code is at
+
+http://bigbird.comp.nus.edu.sg/pmwiki/farm/appl/uploads/Main/POMDPX_NUS.zip
+
+We use the code with input given by a POMDPX domain description which is
+obtained from the RDDL with the translator available at
+
+http://bigbird.comp.nus.edu.sg/pmwiki/farm/appl/uploads/Main/ippc_2014_translator
+
+Compile the code per instructions and run with default parameters.
+
+-------------------------------------------------------------------------
 OTHER WORK
 
 Checkout the other project that uses the similar idea of "Aggregate Simulation", but work on Bayesian Inference. 
